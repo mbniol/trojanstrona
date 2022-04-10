@@ -99,7 +99,7 @@ body{
 }
 
 .content{
-    background-color: red;
+    background-color: white;
     width: 100%;
     height: 100vh;
 }
@@ -117,3 +117,29 @@ body{
     pointer-events: none;
     user-select: none;
 }
+
+#topbtn {
+    display: block;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+    bottom: 2.1rem;
+    right: 1rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    border: 0.2rem solid black;
+    border-radius: 10px;
+    font-size: 2em;
+    transition: ease-in 0.25s;
+  }
+  
+  #topbtn:hover {
+    background-color: black;
+    color: white;
+  }
